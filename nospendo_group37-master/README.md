@@ -1,18 +1,16 @@
 NOSPENDO - project group 37
-           DH2642 Interaktionsprogrammering och dynamiska webben
+           DH2642 Interaction Programming and the dynamic web
            14/12-2020
            
+Nospendo is a shopping simulation that calms the user's shopping desire. We have made the design similar to a real shopping webpage to make the user have a realistic experience. The purpose is that the user should go through the process of shopping on the internet but in the end spend their money on better causes. 
 
-Nospendo är en shopping simulering som lugnar användarens shoppingbegär. Vi har efterliknat hur en riktig shoppinghemsida ser ut för att användaren ska få en så verklig upplevelse som möjligt.
+The user either log in or creates a new account. Then the user can choose between different categories and search for products. It is possible to mark products as favoriets and put them in the cart. The cart is saved if the user logs out and in again.
 
-Syftet är att användaren ska få genomgå processen för internetshopping men i slutet lägga pengarna på vettigare ändamål.
+We have used ASOS API from Rapidapi: https://rapidapi.com/apidojo/api/asos2.
 
-Hemsidan används genom att användaren loggar in eller skapar en ny användare. Sedan kan användaren välja bland olika kategorier samt söka på produkter. Det går att favoritmarkera alla produkter och att lägga dem i varukorgen. När man loggar ut behålls varukorgen tills nästa gång användaren loggar in.
+We have used Firebase for handling accounts, but the contract has expired and therefor it is no longer possible to log in the the webpage. 
 
-Vi har använt ASOS API från Rapidapi: https://rapidapi.com/apidojo/api/asos2.
-
-För att använda hemsidan krävs endast att användaren går in på följande länk: 
-https://asos-project-group37.web.app/
+To use the webpage, one should click on the following link: https://asos-project-group37.web.app/
 
 
 Made by /
