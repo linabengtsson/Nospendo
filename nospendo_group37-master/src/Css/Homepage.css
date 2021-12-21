@@ -1,0 +1,107 @@
+.searchResults{
+    margin-right: 100px;
+    display: inline-block;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    height: 300px;
+    width: 150px;
+    vertical-align: top;
+    margin-top: 20px
+  }
+  
+  .pic:hover {
+    opacity: 0.8;
+  }
+  
+  .text{
+    font-size: 12px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+  }
+  
+  .text2{
+    font-weight: bold;
+  }
+  
+  .catbtn{
+    background-color: rgb(255, 217, 177);
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 15px;
+    border: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .catbtn2{
+    background-color: rgb(255, 217, 177);
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 15px;
+    border: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .catbtn:hover {
+    background-color: rgb(244, 166, 84);
+  }
+  
+  .catbtn2:hover {
+    background-color: rgb(244, 166, 84);
+  }
+  .searchBox[type=text]{
+    width: 20%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  .searchBox[type=text]:focus {
+    border: 3px solid peru;
+  
+  }
+  
+  .searchbtn{
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(255, 217, 177);
+      border-radius: 12px;
+      padding: 5px 15px;
+      font-family: "Lucida Console", "Courier New", monospace;
+      transition-duration: 0.4s;
+      margin-left: 10px;
+      margin-top: 0.5cm;
+    }  
+  .searchbtn:hover {
+    background-color: rgb(255, 217, 177);
+  }
+  
+  .titlesid{
+    font-size: 35px;
+    font-family: Optima, sans-serif;
+    font-weight: bold;
+  }
+
+  .btnfav{
+    position: absolute;
+    margin-left: 3.7cm;
+    color: black;
+    background-color: white;
+    border:none;
+    font-size: 20px
+  }
+
+  .btnfav:hover{
+    position: absolute;
+    margin-left: 3.7cm;
+    color: rgb(249, 181, 181);
+    background-color: white;
+    border:none;
+  } 
+  
+  .btnfav:disabled{
+    color: rgb(249, 181, 181);
+  
+  }

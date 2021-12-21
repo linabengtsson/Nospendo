@@ -1,0 +1,87 @@
+.cartPage{
+    margin-right: 8cm;
+    margin-left: 10cm;
+  }
+  
+  .remove{
+    float: right;
+    border-radius: 70px;
+    background: rgb(250, 236, 223);
+    border: 1px solid rgb(252, 210, 173);
+    padding: 3px 7px; 
+  }
+.remove:hover{
+  background: rgb(252, 210, 173)
+}
+
+  
+  .imgcart{
+    margin-right:1cm;
+    float: left
+  }
+  
+  .namecart{
+    width: 100%;
+    font-family: Optima, sans-serif;
+  }
+  
+  .pricecart{
+    font-weight: bold;
+    padding-right:0.5cm;
+  }
+  
+  .button1{
+    margin-right:0.3cm;
+    margin-top: 1cm
+  }
+  .number{
+    margin-top: 1cm
+  }
+  
+  .button2{
+    margin-left:0.3cm;
+    margin-right: 0.5cm;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+  }
+  
+  .totprice{
+    float: left
+  }
+  
+  .buy_button{
+      position: relative;
+      background-color: #fee2c5;
+      border: none;
+      font-size: 28px;
+      color: rgb(250, 147, 83);
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+  
+    .buy_button:after {
+      content: "";
+      background: #f1f1f1;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+  
+    .buy_button:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+
+    

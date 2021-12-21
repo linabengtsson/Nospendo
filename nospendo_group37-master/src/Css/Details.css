@@ -1,0 +1,81 @@
+.info{
+    padding-left: 10cm;
+    padding-right:8cm;
+  }
+  .backbtn{
+    width:25%;
+    margin-right: 15cm;
+    background-color: #fee2c5; 
+    border: 2px solid #fee2c5;
+    color: rgb(250, 147, 83);
+    padding: 8px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+  }
+  
+  .backbtn:hover{
+    background-color: white;
+    color:rgb(250, 147, 83);
+    border: 2px solid #fee2c5;
+  }
+  
+  .name{
+    font-size : 1.4em;
+    font-family: Optima, sans-serif;
+    padding-right: 7cm;
+    text-align: left;
+  
+  }
+  
+  .pricedet{
+    text-align: left;
+    font-weight: bold;
+    padding-right: 10cm;
+    float: left
+  }
+  
+  .abouttit{
+    font-family: Optima, sans-serif;
+    text-decoration: underline;
+    margin-top:2cm;
+    margin-bottom: 5px;
+    text-align: left;
+  
+  }
+  
+  .about{
+    text-align: left;
+    font-family: Optima, sans-serif;
+  }
+  
+  .cartbtn{
+    position: relative;
+    background-color: #fee2c5;
+    border: 2px solid rgb(254, 180, 135);
+    font-size: 15px;
+    color:rgb(250, 147, 83);
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    margin-right: 15cm;
+    margin-top: 0.5cm;
+  }
+  
+  
+  .cartbtn:hover {
+      background-color: white;
+      color:#d0d2d0;
+      border: 2px solid #d0d2d0
+  }
+  
+  .cartbtn:active{
+    background-color: #d0d2d0;
+  }
+  

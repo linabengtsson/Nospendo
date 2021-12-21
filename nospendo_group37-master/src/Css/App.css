@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.flexParent{ 
+  display:flex;
+  flex-direction:row-reverse; 
+}
+
+.main{
+  flex:2;
+  margin-right: 150px;
+}
+
+.Topbar{
+  background-color: rgb(247, 247, 247);
+  padding: 0.5cm;
+  position: sticky;
+  border-bottom: 2px solid grey;
+  padding-right: 5cm;
+}
+
+.loadinggif{
+  margin-left: 15cm;
+  margin-right: 12cm;
+  margin-top: 3cm;
+  height: 30px;
+}

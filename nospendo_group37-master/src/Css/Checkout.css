@@ -1,0 +1,60 @@
+.modal {
+    font-size: 12px;
+    background-color: rgb(255, 230, 204);
+    border: 3px solid rgb(254, 206, 155);
+    margin-top: 2cm;
+    height: 400px;
+    width: 800px;
+  }
+  .modal > .header {
+    margin-top: 0.3cm;
+    width: 100%;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    margin-top: -0.4cm;
+    margin-left: 3cm;
+    width: 70%;
+    padding: 10px 5px;
+    text-align: center;
+    font-family: Optima, sans-serif;
+    font-size: 17px;
+
+  }
+  .modal > .close {
+    margin-top: 2cm;
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 20px 15px;
+    line-height: 20px;
+    right: -20px;
+    top: -20px;
+    font-size: 50px;
+    background: #ffffff;
+    border-radius: 30px;
+    border: 1px solid #cfcece;
+  }
+
+  .totprice2{
+      display: inline; 
+  }
+
+  .organ{
+      margin-top:0.5cm;
+      margin-left: 10px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      border-radius: 7px;
+  }
+
+  .organ:hover{
+    opacity: 0.8;
+  }
+
+  .textcheck{
+    margin-top: 8px;
+  }

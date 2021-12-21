@@ -1,0 +1,91 @@
+.container{
+    margin-top: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10cm;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 10cm;
+    width: 13cm;
+    background-color: rgb(253, 249, 244);
+    border-radius: 100px;
+    border: 2px solid rgb(253, 241, 226);
+  
+  }
+
+  .nospendo_1_css{
+    margin-top: 0cm;
+  }
+  
+  .text_login_1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .text_login_2{
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .form1{
+    padding: 5px;
+    border: 3px solid rgb(255, 229, 209);
+  }
+
+  .form2{
+    padding: 5px;
+    border: 3px solid rgb(255, 229, 209);
+  }
+
+.btnlogin {
+    background-color: #fee2c5;
+    border: 2px solid #fee2c5;
+    color: rgb(250, 147, 83);
+    padding: 15px 37px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 0.5cm;
+    margin-bottom: 0.2cm;
+    transition-duration: 0.4s;
+  }
+  
+  .btnlogin:hover{
+    background-color: white;
+    color:rgb(250, 147, 83);
+    border: 2px solid #fee2c5;
+  }
+  
+  .btnsignup{
+    background-color: #fee2c5; 
+    border: 2px solid #fee2c5;
+    color: rgb(250, 147, 83);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  
+  .btnsignup:hover{
+    background-color: white;
+    color:rgb(250, 147, 83);
+    border: 2px solid #fee2c5;
+  }
+
+.email{
+    color: rgb(254, 218, 191);
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.password{
+    color: rgb(254, 218, 191);
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+}

@@ -1,0 +1,38 @@
+.FavView{
+    padding-left: 10cm;
+    padding-right:8cm;
+}
+
+.gotodet{
+   width: 80px;
+   background-color: white;
+   color: rgb(249, 171, 103);
+   border: 2px solid rgb(255, 217, 177);
+   border-radius: 5px;
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    margin-bottom: 3cm;
+    margin-left:-2cm;
+    margin-top: 0.5cm;
+    margin-right: 5px
+}
+
+.gotodet:hover {
+   background-color: rgb(255, 217, 177);
+}
+
+.removefav{
+  margin-top: 0.5cm;
+  position: absolute;
+  background-color: white;
+  color: rgb(249, 171, 103);
+  border: 2px solid rgb(255, 217, 177);
+  border-radius: 5px;
+  padding: 5px 15px;
+  transition-duration: 0.4s;
+  margin-bottom: 3cm
+}
+
+.removefav:hover {
+  background-color: rgb(255, 217, 177);
+}
